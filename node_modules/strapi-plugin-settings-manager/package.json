@@ -1,0 +1,93 @@
+{
+  "_from": "strapi-plugin-settings-manager@3.0.0-beta.10",
+  "_id": "strapi-plugin-settings-manager@3.0.0-beta.10",
+  "_inBundle": false,
+  "_integrity": "sha512-Sfcrn3/GuTKpVdHRqI2/DE4ZnrtH7C9ncMhPsodgT+2wX04wus2CrX86/iGj4vP2bP1s4AjDu8eTirbzuE31sA==",
+  "_location": "/strapi-plugin-settings-manager",
+  "_phantomChildren": {
+    "@babel/runtime": "7.5.5",
+    "glob": "7.1.4",
+    "hoist-non-react-statics": "3.3.0",
+    "interpret": "1.2.0",
+    "invariant": "2.2.4",
+    "loose-envify": "1.4.0",
+    "prop-types": "15.7.2",
+    "react-is": "16.9.0",
+    "rechoir": "0.6.2"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-settings-manager@3.0.0-beta.10",
+    "name": "strapi-plugin-settings-manager",
+    "escapedName": "strapi-plugin-settings-manager",
+    "rawSpec": "3.0.0-beta.10",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0-beta.10"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-settings-manager/-/strapi-plugin-settings-manager-3.0.0-beta.10.tgz",
+  "_shasum": "e6db638c1f5a91f7765a237abb3a72cc673a4040",
+  "_spec": "strapi-plugin-settings-manager@3.0.0-beta.10",
+  "_where": "/Users/allwins/Desktop/strapi-pricehound",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "immutable": "^3.8.2",
+    "invariant": "^2.2.1",
+    "lodash": "^4.17.11",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-helmet": "^5.2.0",
+    "react-intl": "^2.8.0",
+    "react-redux": "^7.0.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-transition-group": "^2.5.0",
+    "reactstrap": "^5.0.0",
+    "redux": "^4.0.1",
+    "reselect": "^3.0.1",
+    "shelljs": "^0.7.8",
+    "strapi-helper-plugin": "3.0.0-beta.10"
+  },
+  "deprecated": false,
+  "description": "Strapi plugin to manage settings.",
+  "engines": {
+    "node": "^10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "gitHead": "abef483bc49a5fb0dab52d8a603c0c26292fc6ab",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-settings-manager",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Settings Manager",
+    "icon": "wrench",
+    "description": "settings-manager.plugin.description"
+  },
+  "version": "3.0.0-beta.10"
+}
