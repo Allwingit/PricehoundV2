@@ -1,0 +1,71 @@
+{
+  "connection": "default",
+  "collectionName": "product",
+  "info": {
+    "name": "refrigerators",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "product_id_flipkart": {
+      "type": "string"
+    },
+    "mrp": {
+      "type": "integer"
+    },
+    "selling_price_flipkart": {
+      "type": "integer"
+    },
+    "current_price_flipkart": {
+      "type": "integer"
+    },
+    "current_seller_flipkart": {
+      "type": "string"
+    },
+    "price_category": {
+      "enum": [
+        "basic",
+        "mid-range",
+        "premium",
+        "luxury"
+      ],
+      "type": "enumeration"
+    },
+    "brand": {
+      "model": "brands",
+      "via": "refrigerators"
+    },
+    "color": {
+      "type": "string"
+    },
+    "builtin_stabiliser": {
+      "type": "boolean"
+    },
+    "target_audience": {
+      "type": "string"
+    },
+    "capacity": {
+      "type": "integer"
+    },
+    "shelf_type": {
+      "type": "string"
+    },
+    "energy_star_rating": {
+      "type": "integer"
+    },
+    "compressor_type": {
+      "type": "string"
+    },
+    "door_type": {
+      "type": "string"
+    }
+  }
+}

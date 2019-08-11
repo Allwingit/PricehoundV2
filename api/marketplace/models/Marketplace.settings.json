@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "marketplace",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "store_url": {
+      "type": "string"
+    },
+    "seller": {
+      "model": "seller",
+      "via": "marketplace"
+    }
+  }
+}

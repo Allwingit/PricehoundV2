@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/marketplaces",
+      "handler": "Marketplace.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/marketplaces/count",
+      "handler": "Marketplace.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/marketplaces/:_id",
+      "handler": "Marketplace.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/marketplaces",
+      "handler": "Marketplace.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/marketplaces/:_id",
+      "handler": "Marketplace.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/marketplaces/:_id",
+      "handler": "Marketplace.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

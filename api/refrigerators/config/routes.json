@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/refrigerators",
+      "handler": "Refrigerators.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/refrigerators/count",
+      "handler": "Refrigerators.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/refrigerators/:_id",
+      "handler": "Refrigerators.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/refrigerators",
+      "handler": "Refrigerators.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/refrigerators/:_id",
+      "handler": "Refrigerators.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/refrigerators/:_id",
+      "handler": "Refrigerators.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

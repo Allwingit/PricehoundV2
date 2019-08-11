@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "seller",
+  "info": {
+    "name": "seller",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "seller_name": {
+      "type": "string"
+    },
+    "current_ratings_counts": {
+      "type": "integer"
+    },
+    "current_reviews_count": {
+      "type": "integer"
+    },
+    "current_rating": {
+      "type": "float"
+    },
+    "marketplace": {
+      "model": "marketplace",
+      "via": "seller"
+    }
+  }
+}
