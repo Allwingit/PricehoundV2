@@ -33,6 +33,14 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/refrigerators/import",
+      "handler": "Refrigerators.importData",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
       "path": "/refrigerators/:_id",
       "handler": "Refrigerators.update",
