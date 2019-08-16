@@ -10,7 +10,7 @@
 
     const data =  ctx.request.body
     // console.log(data)
-    for( var i = 0;i< 5/*data ['length']*/;i++)
+    for( var i = 0;i< data ['length'];i++)
     {
       var brand_id = await Brands.find({name:data [i] ['brand']})
       // console.log(brand_id)
