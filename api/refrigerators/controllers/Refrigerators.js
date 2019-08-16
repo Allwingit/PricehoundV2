@@ -10,7 +10,7 @@
 
     const data =  ctx.request.body
     // console.log(data)
-    for( var i = 0;i<data ['length'];i++)
+    for( var i = 0;i< 5/*data ['length']*/;i++)
     {
       var brand_id = await Brands.find({name:data [i] ['brand']})
       // console.log(brand_id)
@@ -21,7 +21,11 @@
         // console.log(brand_id)
       }
 
-      var builtin_stabiliser = new Boolean(data[i]['builtin_stabiliser'])
+      console.log(data[i]['builtin_stabiliser'])
+
+      var builtin_stabiliser = false
+      if(data[i]['builtin_stabiliser'] == 'TRUE')
+        builtin_stabiliser = true
 
       // var enum_data = await Refrigerators.find({price_category: data[i] ['price_category']})
 
@@ -38,7 +42,7 @@
                                              price_category : data[i] ['price_category'].toLowerCase(),
                                              brand : brand_id [0] ['_id'],
                                              color : data[i] ['color'],
-                                             builtin_stabiliser: builtin_stabiliser ['Boolean'],
+                                             builtin_stabiliser: builtin_stabiliser,
                                              target_audience: data[i] ['target_audience'],
                                              capacity : data[i] ['capacity'],
                                              shelf_type: data[i] ['shelf_type'],
